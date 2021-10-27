@@ -1,0 +1,46 @@
+.heading{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: rgb(19, 4, 34);
+    color: rgb(247, 247, 247);
+    margin: 0% 25% 0% 25%;
+    border: darkviolet solid 2px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.f{
+    
+    border: darkviolet solid 2px;
+    align-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin: 0% 25% 0% 25%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.inp{
+    
+    margin-left: 5%;
+    padding: 3px 3px 3px 3px;
+    
+}
+.btn{
+    
+    color: violet;
+    background-color: crimson;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-shadow: darkblue;
+}
+.gen{
+    border: white groove 1px;
+    margin: 5px 20px 5px 20px;
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="FormCSS.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1 class="heading">Form HTML</h1>
+    <form class="f">
+        <div class="gen">
+
+        <label for="USN">Username: </label>
+        <input class="inp" type="text" id="USN" placeholder="Enter Username" required>
+        <br><br>
+
+        <label for="pwd">Password: </label>
+        <input class="inp" type="password" id="pwd" placeholder="Enter Password" required>
+        <br><br>
+
+        <label for="EM">Email: </label>
+        <input class="inp" type="email" id="EM" placeholder="Enter Email" required name="em">
+        <br><br>
+        </div>
+
+        <div class="gen">
+
+            <p class="genderlabel"><b>Select gender</b></p><br>
+            <label for="M">Male</label>
+            <input type="radio" id="M" name="gender"> <br>
+            <label for="F">Female</label> 
+            <input type="radio" id="F" name="gender"> <br>
+            <label for="other">other</label> 
+            <input type="radio" id="other" name="gender"> <br><br>
+
+        </div>
+        
+        <div class="gen">
+
+            <label for="age group">Select your age group</label><br><br>
+            <select name="AgeGroup" id="">
+
+                <option value="10-15">10-15</option>
+                <option value="15-20">15-20</option>
+                <option value="20-25">20-25</option>
+
+            </select>
+            <br><br>
+
+            <input class="btn" type="submit" value="Sign up"> 
+            
+        </div>
+        
+        
+    </form>
+    
+
+
+</body>
+</html>
